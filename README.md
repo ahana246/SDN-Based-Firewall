@@ -7,11 +7,11 @@ A controller-based firewall that blocks or allows traffic between hosts using Op
 ## Topology
 
 ```
-        [ Ryu Controller ]
-               |
+           [ Ryu Controller ]
+                    |
            [ s1 (OVS Switch) ]
-          /    |    \    \
-        h1    h2    h3    h4
+           /     |     |     \
+          h1     h2    h3     h4
     10.0.0.1 10.0.0.2 10.0.0.3 10.0.0.4
 ```
 
