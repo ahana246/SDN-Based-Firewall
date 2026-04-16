@@ -71,12 +71,6 @@ mininet> dpctl dump-flows
 | h1 → h3 | 100% packet loss (blocked) |
 | h2 → h3 | 0% packet loss (allowed) |
 
-**Log file** (`logs/blocked_packets.log`):
-```
-=== Firewall Controller Started at 2026-04-13 15:51:22 ===
-[BLOCKED] 2026-04-13 15:51:42 | 10.0.0.1 -> 10.0.0.3 | proto=None port=None
-```
-
 ---
 
 ## Screenshots
